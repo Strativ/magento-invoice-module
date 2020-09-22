@@ -1,0 +1,22 @@
+{
+    "name": "strativ/magento-invoice-module",
+    "description": "Strativ's Invoice Module for Magento",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "info@strativ.se",
+            "name": "Strativ"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Strativ\\Invoice\\": ""
+        }
+    }
+}
